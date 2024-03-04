@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Rex",
+    "raça": "Labrador Retriever",
+    "cor": "Preto",
+    "tamanho": "Grande"
+  },
+  {
+    "nome": "Whiskers",
+    "raça": "Siamês",
+    "cor": "Branco e Marrom",
+    "tamanho": "Pequeno"
+  },
+  {
+    "nome": "Fluffy",
+    "raça": "Persa",
+    "cor": "Branco",
+    "tamanho": "Médio"
+  },
+  {
+    "nome": "Max",
+    "raça": "Golden Retriever",
+    "cor": "Dourado",
+    "tamanho": "Grande"
+  }
+]
