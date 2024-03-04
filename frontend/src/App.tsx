@@ -1,14 +1,13 @@
 import './App.css'
-import { FirstComponent } from './components/first-component'
-import { ComponentAl } from './components/componenteAlysson'
-import ComponenteRoberto from './components/ComponenteRoberto'
+import { Tooltip, Toast, Popover } from 'bootstrap';
 
 function App() {
   return (
     <>
-      <FirstComponent />
-      <ComponentAl />
-      <ComponenteRoberto />
+      <button id="popoverButton" type="button"
+        className="btn btn-primary btn-lg"
+        data-bs-toggle="popover" title="ESM in Browser"
+        data-bs-content="Bang!">Custom popover</button>
     </>
   )
 }
