@@ -8,27 +8,34 @@ const Lista: React.FC = () => {
     cor: string;
     tamanho: string;
   };
-
   // Definindo o estado para armazenar os animais
+  // Desestruturação de arrays  
   const [animais, setAnimais] = useState<Animal[]>([]);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch('db.json');
-        if (!response.ok) {
-          throw new Error('Falha ao obter os dados');
-        }
         const data = await response.json();
         setAnimais(data);
       } catch (error) {
         console.error('Erro ao buscar animais:', error);
       }
     };
-
     fetchData();
   }, []);
-
+  
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('db.json');
+        const data = await response.json();
+        setAnimais(data);
+      } catch (error) {
+        console.error('Erro ao buscar animais:', error);
+      }
+    };
+    fetchData();
+  }, []);
   return (
     <div>
       <h1>Lista de Animais</h1>
@@ -46,4 +53,4 @@ const Lista: React.FC = () => {
   );
 };
 
-export default Lista;
+export default Lista

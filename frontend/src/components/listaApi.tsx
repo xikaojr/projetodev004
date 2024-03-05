@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const Lista = () => {
   const [animais, setAnimais] = useState([]);
-  
+
   useEffect(() => {
     const fetchAnimais = async () => {
       try {
