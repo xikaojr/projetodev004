@@ -1,68 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --padding: 10px;
+  --font-family: 'Pacifico', cursive;
+  --font-size: 24px;
+  --color-white: #fff;
+  --color-hover: #d6ac01;
+  --box-shadow-color: #d6ac01;
+  --background-image: url('@images/simbolo-sonoro.webp');
+  --background-size: 30%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.amarelo,
+.rosa,
+.vermelho,
+.lilas,
+.verde,
+.azul {
+  padding: var(--padding);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--color-white);
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.amarelo {
+  background: #e7b902;
+  --hover-background: #d6ac01;
+  --hover-box-shadow-color: #d6ac01;
 }
+
+.rosa {
+  background: #f03cc3;
+  --hover-background: #e01caf;
+  --hover-box-shadow-color: #e01caf;
+}
+
+.vermelho {
+  background: #ff3845;
+  --hover-background: #d91623;
+  --hover-box-shadow-color: #d91623;
+}
+
+.lilas {
+  background: #8f4af7;
+  --hover-background: #691ddb;
+  --hover-box-shadow-color: #691ddb;
+}
+
+.verde {
+  background: #0ecc6a;
+  --hover-background: #09ae3d;
+  --hover-box-shadow-color: #09ae3d;
+}
+
+.azul {
+  background: #01a5fc;
+  --hover-background: #0387cf;
+  --hover-box-shadow-color: #0387cf;
+}
+
+.amarelo:hover,
+.rosa:hover,
+.vermelho:hover,
+.lilas:hover,
+.verde:hover,
+.azul:hover {
+  background: var(--hover-background);
+  box-shadow: var(--hover-box-shadow-color) 0px 7px 20px 0px;
+  background: var(--background-image) var(--hover-background) no-repeat top right;
+  background-size: var(--background-size);
+}
+
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #676767;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+h2,
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+  font-size: 20px !important;
+}
+
+h3 {
+  font-size: 14px !important;
+}
+
+.animal {
+  margin: 3%;
+  width: 94%;
+  text-align: center;
+  border-radius: 15px;
+  /* transform-style: preserve-3d;
+            transition: transform 0.8s; */
+  transition: all .3s;
+}
+
+.animal:hover {
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  /* transform: rotateY(180deg);
+            transition: transform 0.8s; */
+  transform: scale(0.9);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+#amarelotopo {
+  width: 100%;
+  height: 200px;
+  background: url('@images/amarelo-topo.png') top left no-repeat;
+  background-size: 45%;
+  position: absolute;
+  color: #fff;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+/* início da responsividade para desktop (breakpoint) */
+@media only screen and (min-width: 961px) {
+  body {
+    margin: 1%;
+    overflow-x: hidden;
+    background: url('@images/azul-topo.png') top right no-repeat #fff;
+    background-size: 15%;
   }
-  a:hover {
-    color: #747bff;
+
+  #amarelotopo {
+    width: 100%;
+    height: 100%;
+    background: url('@images/amarelo-topo.png') top left no-repeat;
+    background-size: 25%;
+    position: absolute;
+    color: #fff;
+    left: 0;
+    top: 0;
+    z-index: 0;
   }
-  button {
-    background-color: #f9f9f9;
+
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem !important;
+    color: #676767;
   }
 }

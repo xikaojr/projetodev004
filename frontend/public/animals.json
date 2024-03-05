@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Abelha",
+    "name_eng": "Bee",
+    "image": "abelha-bee.png",
+    "audio": "abelha-bee.mp3",
+    "color": "amarelo"
+  },
+  {
+    "name": "Alce",
+    "name_eng": "Moose",
+    "image": "alce-moose.png",
+    "color": "rosa",
+    "audio": "alce-moose.mp3"
+  },
+  {
+    "name": "Alpaca",
+    "name_eng": "Alpaca",
+    "image": "alpaca.png",
+    "color": "vermelho",
+    "audio": "alpaca.mp3"
+  },
+  {
+    "name": "Antílope",
+    "name_eng": "Antelope",
+    "image": "antilope-antelope.png",
+    "color": "lilas",
+    "audio": "antilope-antelope.mp3"
+  },
+  {
+    "name": "Baleia da Groelândia",
+    "name_eng": "Bowhead Whale",
+    "image": "baleia-da-groelandia-bowhead-whale.png",
+    "color": "azul",
+    "audio": "baleia-da-groelandia-bowhead-whale.mp3"
+  },
+  {
+    "name": "Baleia Jubarte",
+    "name_eng": "Humpback Whale",
+    "image": "baleia-jubarte-humpback-whale.png",
+    "color": "verde",
+    "audio": "baleia-jubarte-humpback-whale.mp3"
+  },
+  {
+    "name": "Borboleta",
+    "name_eng": "Butterfly",
+    "image": "borboleta-butterfly.png",
+    "color": "rosa",
+    "audio": "borboleta-butterfly.mp3"
+  },
+  {
+    "name": "Bufalo",
+    "name_eng": "Buffalo",
+    "image": "bufalo-buffalo.png",
+    "color": "amarelo",
+    "audio": "bufalo-buffalo.mp3"
+  },
+  {
+    "name": "Cachorro",
+    "name_eng": "Dog",
+    "image": "cachorro-dog.png",
+    "color": "lilas",
+    "audio": "cachorro-dog.mp3"
+  },
+  {
+    "name": "Camelo",
+    "name_eng": "Camel",
+    "image": "camelo-camel.png",
+    "color": "vermelho",
+    "audio": "camelo-camel.mp3"
+  },
+  {
+    "name": "Cavalo",
+    "name_eng": "Horse",
+    "image": "cavalo-horse.png",
+    "color": "verde",
+    "audio": "cavalo-horse.mp3"
+  },
+  {
+    "name": "Cisne",
+    "name_eng": "Swan",
+    "image": "cisne-swan.png",
+    "color": "azul",
+    "audio": "cisne-swan.mp3"
+  },
+  {
+    "name": "Cobra Cascavel",
+    "name_eng": "Rattlesnake",
+    "image": "cobra-cascavel-rattlesnake.png",
+    "color": "amarelo",
+    "audio": "cobra-cascavel-rattlesnake.mp3"
+  },
+  {
+    "name": "Coelho",
+    "name_eng": "Rabbit",
+    "image": "coelho-rabbit.png",
+    "color": "rosa",
+    "audio": "coelho-rabbit.mp3"
+  },
+  {
+    "name": "Coruja",
+    "name_eng": "Owl",
+    "image": "coruja-owl.png",
+    "color": "vermelho",
+    "audio": "coruja-owl.mp3"
+  },
+  {
+    "name": "Corvo",
+    "name_eng": "Crow",
+    "image": "corvo-crow.png",
+    "color": "lilas",
+    "audio": "corvo-crow.mp3"
+  },
+  {
+    "name": "Dinossauro",
+    "name_eng": "Dinosaur",
+    "image": "dinossauro-dinosaur.png",
+    "color": "azul",
+    "audio": "dinossauro-dinosaur.mp3"
+  },
+  {
+    "name": "Dragão de Komodo",
+    "name_eng": "Komodo Dragon",
+    "image": "dragao-de-komodo-komodo-dragon.png",
+    "color": "verde",
+    "audio": "dragao-de-komodo-komodo-dragon.mp3"
+  },
+  {
+    "name": "Elefante",
+    "name_eng": "Elephant",
+    "image": "elefante-elephant.png",
+    "color": "rosa",
+    "audio": "elefante-elephant.mp3"
+  },
+  {
+    "name": "Escorpião",
+    "name_eng": "Scorpion",
+    "image": "escorpiao-scorpion.png",
+    "color": "amarelo",
+    "audio": "escorpiao-scorpion.mp3"
+  },
+  {
+    "name": "Falcão",
+    "name_eng": "Falcon",
+    "image": "falcao-falcon.png",
+    "color": "vermelho",
+    "audio": "falcao-falcon.mp3"
+  },
+  {
+    "name": "Lontra",
+    "name_eng": "Seal",
+    "image": "lontra-otter.png",
+    "color": "lilas",
+    "audio": "lontra-otter.mp3"
+  },
+  {
+    "name": "Gato",
+    "name_eng": "Cat",
+    "image": "gato-cat.png",
+    "color": "azul",
+    "audio": "gato-cat.mp3"
+  },
+  {
+    "name": "Girafa",
+    "name_eng": "Giraffe",
+    "image": "girafa-giraffe.png",
+    "color": "verde",
+    "audio": "girafa-giraffe.mp3"
+  },
+  {
+    "name": "Golfinho",
+    "name_eng": "Dolphin",
+    "image": "golfinho-dolphin.png",
+    "color": "amarelo",
+    "audio": "golfinho-dolphin.mp3"
+  },
+  {
+    "name": "Macaco",
+    "name_eng": "Ape",
+    "image": "macaco-ape.png",
+    "color": "rosa",
+    "audio": "macaco-ape.mp3"
+  },
+  {
+    "name": "Grilo",
+    "name_eng": "Cricket",
+    "image": "grilo-cricket.png",
+    "color": "vermelho",
+    "audio": "grilo-cricket.mp3"
+  },
+  {
+    "name": "Hipopótamo",
+    "name_eng": "Hippopotamus",
+    "image": "hipopotamo-hippopotamus.png",
+    "color": "lilas",
+    "audio": "hipopotamo-hippopotamus.mp3"
+  }
+]
