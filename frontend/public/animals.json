@@ -168,25 +168,11 @@
     "audio": "girafa-giraffe.mp3"
   },
   {
-    "name": "Golfinho",
-    "name_eng": "Dolphin",
-    "image": "golfinho-dolphin.png",
-    "color": "amarelo",
-    "audio": "golfinho-dolphin.mp3"
-  },
-  {
     "name": "Macaco",
     "name_eng": "Ape",
     "image": "macaco-ape.png",
     "color": "rosa",
     "audio": "macaco-ape.mp3"
-  },
-  {
-    "name": "Grilo",
-    "name_eng": "Cricket",
-    "image": "grilo-cricket.png",
-    "color": "vermelho",
-    "audio": "grilo-cricket.mp3"
   },
   {
     "name": "Hipopótamo",
