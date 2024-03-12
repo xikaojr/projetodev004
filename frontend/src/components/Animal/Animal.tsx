@@ -1,7 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect, useState } from 'react'
+import SingleAnimal from './SingleAnimal'
+import Section from '../Section'
 
 type Animal = {
+  id: Number,
   name: string,
   name_eng: string,
   image: string,
@@ -31,16 +34,12 @@ export default function Animal() {
   }, []);
 
   return (
-    <section className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4'>
-      {animals && animals.map((animal, id) => {
+    <Section className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4'>
+      {animals && animals.map((animal) => {
         return (
-          <article key={id} className={`animal ${animal.color}`} onClick={() => handleClick(animal.audio)}>
-            <img src={`./src/assets/images/animals/${animal.image}`} className="block mx-auto" />
-            <h2 className="m-0">{animal.name}</h2>
-            <h3 className="m-0">{animal.name_eng}</h3>
-          </article>
+          <SingleAnimal animal={animal} handleClick={handleClick} />
         )
       })}
-    </section>
+    </Section>
   )
 }

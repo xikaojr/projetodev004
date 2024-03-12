@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Abelha",
     "name_eng": "Bee",
     "image": "abelha-bee.png",
@@ -7,6 +8,7 @@
     "color": "amarelo"
   },
   {
+    "id": 1,
     "name": "Alce",
     "name_eng": "Moose",
     "image": "alce-moose.png",
@@ -14,6 +16,7 @@
     "audio": "alce-moose.mp3"
   },
   {
+    "id": 1,
     "name": "Alpaca",
     "name_eng": "Alpaca",
     "image": "alpaca.png",
@@ -21,6 +24,7 @@
     "audio": "alpaca.mp3"
   },
   {
+    "id": 1,
     "name": "Antílope",
     "name_eng": "Antelope",
     "image": "antilope-antelope.png",
@@ -28,6 +32,7 @@
     "audio": "antilope-antelope.mp3"
   },
   {
+    "id": 1,
     "name": "Baleia da Groelândia",
     "name_eng": "Bowhead Whale",
     "image": "baleia-da-groelandia-bowhead-whale.png",
@@ -35,6 +40,7 @@
     "audio": "baleia-da-groelandia-bowhead-whale.mp3"
   },
   {
+    "id": 1,
     "name": "Baleia Jubarte",
     "name_eng": "Humpback Whale",
     "image": "baleia-jubarte-humpback-whale.png",
@@ -42,6 +48,7 @@
     "audio": "baleia-jubarte-humpback-whale.mp3"
   },
   {
+    "id": 1,
     "name": "Borboleta",
     "name_eng": "Butterfly",
     "image": "borboleta-butterfly.png",
@@ -49,6 +56,7 @@
     "audio": "borboleta-butterfly.mp3"
   },
   {
+    "id": 1,
     "name": "Bufalo",
     "name_eng": "Buffalo",
     "image": "bufalo-buffalo.png",
@@ -56,6 +64,7 @@
     "audio": "bufalo-buffalo.mp3"
   },
   {
+    "id": 1,
     "name": "Cachorro",
     "name_eng": "Dog",
     "image": "cachorro-dog.png",
@@ -63,6 +72,7 @@
     "audio": "cachorro-dog.mp3"
   },
   {
+    "id": 1,
     "name": "Camelo",
     "name_eng": "Camel",
     "image": "camelo-camel.png",
@@ -70,6 +80,7 @@
     "audio": "camelo-camel.mp3"
   },
   {
+    "id": 1,
     "name": "Cavalo",
     "name_eng": "Horse",
     "image": "cavalo-horse.png",
@@ -77,6 +88,7 @@
     "audio": "cavalo-horse.mp3"
   },
   {
+    "id": 1,
     "name": "Cisne",
     "name_eng": "Swan",
     "image": "cisne-swan.png",
@@ -84,6 +96,7 @@
     "audio": "cisne-swan.mp3"
   },
   {
+    "id": 1,
     "name": "Cobra Cascavel",
     "name_eng": "Rattlesnake",
     "image": "cobra-cascavel-rattlesnake.png",
@@ -91,6 +104,7 @@
     "audio": "cobra-cascavel-rattlesnake.mp3"
   },
   {
+    "id": 1,
     "name": "Coelho",
     "name_eng": "Rabbit",
     "image": "coelho-rabbit.png",
@@ -98,6 +112,7 @@
     "audio": "coelho-rabbit.mp3"
   },
   {
+    "id": 1,
     "name": "Coruja",
     "name_eng": "Owl",
     "image": "coruja-owl.png",
@@ -105,6 +120,7 @@
     "audio": "coruja-owl.mp3"
   },
   {
+    "id": 1,
     "name": "Corvo",
     "name_eng": "Crow",
     "image": "corvo-crow.png",
@@ -112,6 +128,7 @@
     "audio": "corvo-crow.mp3"
   },
   {
+    "id": 1,
     "name": "Dinossauro",
     "name_eng": "Dinosaur",
     "image": "dinossauro-dinosaur.png",
@@ -119,6 +136,7 @@
     "audio": "dinossauro-dinosaur.mp3"
   },
   {
+    "id": 1,
     "name": "Dragão de Komodo",
     "name_eng": "Komodo Dragon",
     "image": "dragao-de-komodo-komodo-dragon.png",
@@ -126,6 +144,7 @@
     "audio": "dragao-de-komodo-komodo-dragon.mp3"
   },
   {
+    "id": 1,
     "name": "Elefante",
     "name_eng": "Elephant",
     "image": "elefante-elephant.png",
@@ -133,6 +152,7 @@
     "audio": "elefante-elephant.mp3"
   },
   {
+    "id": 1,
     "name": "Escorpião",
     "name_eng": "Scorpion",
     "image": "escorpiao-scorpion.png",
@@ -140,6 +160,7 @@
     "audio": "escorpiao-scorpion.mp3"
   },
   {
+    "id": 1,
     "name": "Falcão",
     "name_eng": "Falcon",
     "image": "falcao-falcon.png",
@@ -147,6 +168,7 @@
     "audio": "falcao-falcon.mp3"
   },
   {
+    "id": 1,
     "name": "Lontra",
     "name_eng": "Seal",
     "image": "lontra-otter.png",
@@ -154,6 +176,7 @@
     "audio": "lontra-otter.mp3"
   },
   {
+    "id": 1,
     "name": "Gato",
     "name_eng": "Cat",
     "image": "gato-cat.png",
@@ -161,6 +184,7 @@
     "audio": "gato-cat.mp3"
   },
   {
+    "id": 1,
     "name": "Girafa",
     "name_eng": "Giraffe",
     "image": "girafa-giraffe.png",
@@ -168,6 +192,7 @@
     "audio": "girafa-giraffe.mp3"
   },
   {
+    "id": 1,
     "name": "Macaco",
     "name_eng": "Ape",
     "image": "macaco-ape.png",
@@ -175,6 +200,7 @@
     "audio": "macaco-ape.mp3"
   },
   {
+    "id": 1,
     "name": "Hipopótamo",
     "name_eng": "Hippopotamus",
     "image": "hipopotamo-hippopotamus.png",
