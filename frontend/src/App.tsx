@@ -1,15 +1,13 @@
-import './App.css'
-import { FirstComponent } from './components/first-component'
-import { ComponentAl } from './components/componenteAlysson'
-import ComponenteRoberto from './components/ComponenteRoberto'
+import Header from './components/Header/Header'
+import Animal from './components/Animal/Animal'
 
 function App() {
   return (
     <>
-      <FirstComponent />
-      <ComponentAl />
-      <ComponenteRoberto />
+      <Header />
+      <Animal />
     </>
   )
 }
+
 export default App
