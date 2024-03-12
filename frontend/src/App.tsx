@@ -1,11 +1,13 @@
-import Header from './components/Header/Header'
-import Animal from './components/Animal/Animal'
+import Animal from "./Components/animal/Animal"
+import Section from "./Components/header/Section"
+
+
 
 function App() {
   return (
     <>
-      <Header />
-      <Animal />
+      <Section/>
+      <Animal/>
     </>
   )
 }

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect, useState } from 'react'
 import SingleAnimal from './SingleAnimal'
-import Section from '../Section'
+import Section from '../header/Section'
 
 type Animal = {
   id: Number,
