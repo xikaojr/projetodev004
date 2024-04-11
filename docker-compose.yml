@@ -1,0 +1,28 @@
+version: "3"
+
+networks:
+  localhost:
+    external: true
+
+volumes:
+  localdatabases:
+
+services:
+  database:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - localdatabases:/var/lib/mysql
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      VIRTUAL_HOST: db.mysql.dev
+      MYSQL_DATABASE: fdev004
+      MYSQL_USER: mysql-user-docker
+      MYSQL_PASSWORD: mysql-user-secret
+      MYSQL_ROOT_PASSWORD: secret
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    networks:
+      - localhost
